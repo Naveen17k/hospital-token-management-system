@@ -1,0 +1,22 @@
+/* DoctorPanel.module.css */
+
+/* Custom scrollbar style */
+.customScrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .customScrollbar::-webkit-scrollbar-thumb {
+    background-color: #808080; /* Gray color for the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+  }
+  
+  .customScrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Transparent background for the scrollbar track */
+  }
+  
+  /* Table wrapper style to ensure only table contents are scrollable */
+  .tableWrapper {
+    max-height: 530px; /* Maximum height of the table container */
+    overflow-y: auto; /* Enable vertical scrollbar when content exceeds max height */
+  }
+  

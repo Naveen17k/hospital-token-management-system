@@ -1,0 +1,7 @@
+runtime: nodejs20  # Adjust the Node.js version if needed
+service: api  
+
+handlers:
+
+- url: /.*
+  script: auto
